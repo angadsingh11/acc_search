@@ -1,5 +1,6 @@
 import 'package:acc_finder/models/appConstants.dart';
 import 'package:acc_finder/screens/guestHomePage.dart';
+import 'package:acc_finder/views/formWidgets.dart';
 import 'package:acc_finder/views/textWidgets.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
@@ -115,6 +116,10 @@ class _ViewProfilePageState extends State<ViewProfilePage> {
                       fontSize: 25.0,
                     ),
                   ),
+                ),
+                Padding(
+                    padding: const EdgeInsets.only(top: 20.0),
+                    child: ReviewForm(),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(top: 20.0),
